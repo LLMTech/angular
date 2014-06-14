@@ -1,0 +1,27 @@
+﻿
+
+ <div><!--in my login<br />-->
+<form class="form-signin" id="signupform" role="form" ng-submit="assessLogin()">
+        <h2 class="form-signin-heading">Assessment NJ</h2>
+             <fieldset>
+                    <legend>Enter your login credentials</legend>
+    
+                    <p><label for="username">Username: <input type="text" name="username" id="username" class="form-control" ng-model="txtUsername" required autofocus></label>
+                    <p><label for="password">Password: <input type="password" name="password" id="password" class="form-control" ng-model="txtPassword" required>
+				</fieldset>
+         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+
+					</form>
+        <div class="panel-body text-center">
+		
+			<!--Here is what I entered: <input type="text" ng-model="txtUsername" />
+			Here is the result: <input type="text" ng-model="txtResult" />-->
+			
+			<p></p>
+
+             <form ng-submit="initialize()">
+                <input class="btn-primary" type="submit" value="Start Over" />
+            </form>
+
+        </div>
+   </div>
